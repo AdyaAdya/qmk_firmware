@@ -179,6 +179,10 @@ typedef ioline_t pin_t;
 #    define readPin(pin) palReadLine(pin)
 #endif
 
+#ifdef CUSTOM_MODIFIED_VALUES_ENABLE
+  #include "custom_modified_values.h"
+#endif
+
 // Send string macros
 #define STRINGIZE(z) #z
 #define ADD_SLASH_X(y) STRINGIZE(\x##y)

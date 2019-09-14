@@ -238,6 +238,10 @@ ifeq ($(strip $(BACKLIGHT_ENABLE)), yes)
     endif
 endif
 
+ifeq ($(strip $(CUSTOM_MODIFIED_VALUES_ENABLE)), yes)
+    OPT_DEFS += -DCUSTOM_MODIFIED_VALUES_ENABLE
+endif
+
 ifeq ($(strip $(CIE1931_CURVE)), yes)
     OPT_DEFS += -DUSE_CIE1931_CURVE
     LED_TABLES = yes

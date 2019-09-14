@@ -11,6 +11,7 @@ QMK has a staggering number of features for building your keyboard. It can take 
 * [Bootmagic](feature_bootmagic.md) - Adjust the behavior of your keyboard using hotkeys.
 * [Combos](feature_combo.md) - Custom actions for multiple key holds.
 * [Command](feature_command.md) - Runtime version of bootmagic (Formerly known as "Magic").
+* [Custom Modified Values](feature_custom_modified_values.md) - Customize the keycodes processed by the firmware depending on the modifiers state
 * [Debounce API](feature_debounce_type.md) - Customization of debouncing algorithms, and the ability to add more/custom debouncing. 
 * [DIP Switch](feature_dip_switch.md) - Toggle switches for customizing board function.
 * [Dynamic Macros](feature_dynamic_macros.md) - Record and playback macros from the keyboard itself.
